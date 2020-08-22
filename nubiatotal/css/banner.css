@@ -1,0 +1,86 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+
+			#banner {
+				height: 500px;
+				width: 1350px;
+				overflow: hidden;
+				position: relative;
+			}
+
+			#oul {
+				width: 5500px;
+				height: 500px;
+				list-style: none;
+				position: absolute;
+				display: flex;
+			}
+
+			#oul li {
+				width: 1350px;
+				height: 500px;
+
+				margin-right: 10px;
+			}
+
+			#oul li img {
+				width: 1370px;
+				height: 500px;
+
+			}
+
+			#op {
+				position: absolute;
+				left: 498px;
+				top: 460px;
+			}
+
+			#op span {
+				width: 60px;
+				height: 3px;
+
+				float: left;
+				margin-right: 10px;
+
+
+			}
+
+			#btn1 {
+				width: 55px;
+				height: 55px;
+				line-height: 55px;
+				position: absolute;
+				background: transparent;
+				border: 2px solid antiquewhite;
+				border-radius: 50%;
+				color: bisque;
+				font-size: 35px;
+				left: 50px;
+				top: 230px;
+				outline: none;
+			}
+
+			#btn2 {
+				width: 55px;
+				height: 55px;
+				line-height: 55px;
+				position: absolute;
+				background: transparent;
+				border: 2px solid antiquewhite;
+				border-radius: 50%;
+				color: bisque;
+				font-size: 35px;
+				left: 1224px;
+				top: 230px;
+				outline: none;
+			}
+
+			.red {
+				background: red;
+			}
+
+			.no_red {
+				background: gray;
+			}
